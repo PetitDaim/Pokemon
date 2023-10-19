@@ -1,0 +1,29 @@
+#liste30premiers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px;
+    width:180px;
+    height:180px;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.experience{
+    text-align: center;
+}
